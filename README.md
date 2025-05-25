@@ -1,6 +1,20 @@
 # Market Maker Auction System
 
-A high-performance market maker system for handling JIT (Just-In-Time) auctions and order management, built with FastAPI and asyncio.
+A market maker system for handling JIT (Just-In-Time) auctions and order management, built with FastAPI and asyncio. This system is designed to integrate with LitLayer, a new perpetuals DEX that combines CLOB (Central Limit Order Book) with JIT (Just-In-Time) auction model.
+
+## Integration Objectives
+
+This project aims to integrate with LitLayer's trading infrastructure, providing:
+- Market making capabilities for perpetual futures
+- JIT auction participation
+- Order book management
+- Performance monitoring and testing
+
+For detailed documentation about LitLayer's market making model, see:
+[LitLayer Market Maker Documentation](https://spangle-mile-967.notion.site/LitLayer-Market-Maker-Documentation-CLOB-x-JIT-Model-DRAFT-14a828721b1c81fa83b6fbd02d0fee28?pvs=74)
+
+For integration guidelines, see:
+[LitLayer Client-Server Integration Guide](https://spangle-mile-967.notion.site/LitLayer-Client-Server-Integration-Guide-14a828721b1c806a8e11cf47b0acc0d2?pvs=74)
 
 ## Features
 
